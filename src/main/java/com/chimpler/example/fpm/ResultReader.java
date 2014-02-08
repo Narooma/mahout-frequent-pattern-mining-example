@@ -122,7 +122,7 @@ public class ResultReader {
 	public static void main(String args[]) throws Exception {
 		if (args.length != 6) {
 			System.err.println("Arguments: [transaction count] [mapping.csv path] [fList path] "
-					+ "[frequentPatterns path] [minSupport] [minConfidence]");
+					+ "[frequentPatterns path] [minSupport]");
 			return;
 		}
 
